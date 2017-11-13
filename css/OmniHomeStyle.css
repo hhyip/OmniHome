@@ -1,5 +1,6 @@
 body {
     background-color: rgb(20, 95, 150);
+    background: radial-gradient(ellipse at center, rgb(35, 120, 170) 0%, rgb(15, 65, 100) 100%);
     max-width: 1000px;
     margin: 0px auto;
 }
