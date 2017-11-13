@@ -3,43 +3,56 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <title>Call Out</title>
     <link rel="stylesheet" type="text/css" href="css/OmniHomeStyle.css">
 </head>
 
-<body>
+<body class="Site">
 
     <header>
-        <p></p>
-        <img src="assets/XPStar.png">
-        <img src="assets/XPBar.png">
-        <p></p>
-        <img src="assets/ProfileIcon.png">
-        <p></p>
-        <br>
-        <input type="image" src="assets/ChoreButton.png" onclick="window.location.href='Chore.html'" />
-        <br>
-        <br>
-        <input type="image" src="assets/SettingsButton.png" onclick="window.location.href='Settings.html'" />
-
-
+        <div class="pure-g">
+            <div class="pure-u-1-3">
+                <img src="assets/XPBar.png">
+                <img src="assets/ProfileIcon.png">
+            </div>
+            <div class="pure-u-1-3">
+                <input type="image" src="assets/ChoreButton.png" onclick="window.location.href='Chore.html'" />
+            </div>
+            <div class="pure-u-1-3">
+                <input type="image" src="assets/LogOutButton.png" onclick="window.location.href='FrontPage.html'"/>
+                <input type="image" src="assets/SettingsButton.png" onclick="window.location.href='Settings.html'" vspace="4" hspace="10" />
+            </div>
+        </div>
     </header>
-
-    <h1>OMNIHOME</h1>
-    <br>
-
-    <footer>
-        <img src="assets/CallOutButtonLarge.png">
-        <br>
-        <input type="image" src="assets/LeaderboardButton.png" onclick="window.location.href='Leaderboard.html'" />
-        <br>
-        <input type="image" src="assets/HomeButton.png" onclick="window.location.href='Homepage.html'" />
-        <br>
-        <input type="image" src="assets/ProfileButton.png" onclick="window.location.href='Profile.html'" />
-        <br>
-        <input type="image" src="assets/ShoppingButton.png" onclick="window.location.href='Shopping.html'" />
-
+    
+    <main class="Site-content">    
+        <section>
+            <img src="assets/logo.png" />
+        </section>
+    
+    </main>
+    
+    <footer class="footer">
+    <div class="pure-g">
+        <div class="pure-u-1-5">
+            <img src="assets/CallOutButtonLarge.png">
+            </div>
+            <div class="pure-u-1-5">
+            <input type="image" src="assets/LeaderboardButton.png" onclick="window.location.href='Leaderboard.html'" />
+            </div>
+            <div class="pure-u-1-5">
+            <input type="image" src="assets/HomeButton.png" onclick="window.location.href='Homepage.html'" />
+            </div>
+            <div class="pure-u-1-5">
+            <input type="image" src="assets/ProfileButton.png" onclick="window.location.href='Profile.html'" />
+            </div>
+            <div class="pure-u-1-5">
+            <input type="image" src="assets/ShoppingButton.png" onclick="window.location.href='Shopping.html'" />
+        </div>
+    </div>
     </footer>
+
 
 </body>
 
