@@ -45,3 +45,7 @@ input {
     position: absolute;
     top: 30%;
 }
+
+.middleAlign {
+    vertical-align: middle;
+}
